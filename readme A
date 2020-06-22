@@ -1,0 +1,32 @@
+Username: Davidsa
+Name: David Shandor   id: 302902705
+
+Program Description:
+This program is a mini-shell. The user can open a terminal and type commands to be execute. The shell use new procces to run the commands.
+
+#ex3a update: Now this shell support signals like  SIG_TSTP (ctrl+z) and SIG_CONT (bg).
+
+Compilation:
+Type in the terminal: gcc ex3a.c -o ex3a
+
+
+Launch the Program: 
+After compilation to ex3a, in the terminal type: ./ex3a 
+
+Attached filed:
+ex3a.c, readme A.
+
+How to use the program:
+Compile and run as the instruction above, then use command as shell.
+
+NOTE:
+This shell CAN NOT run "cd" command. 
+Also I fixed some bug with spaces-only string and some crash made by fgets() and other functions.
+ex3a update: NOTE! bg (SIGCONT) can works only when there is delayed procces.
+
+
+
+
+
+
+
